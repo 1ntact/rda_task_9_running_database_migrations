@@ -1,5 +1,8 @@
 --liquibase formatted sql
 
+--liquibase properties
+--changelog-file=task.sql
+
 --changeset mate.acamemy:1 labels:0.0.1
 CREATE TABLE Countries (
     ID INT,
