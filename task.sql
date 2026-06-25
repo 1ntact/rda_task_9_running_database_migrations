@@ -49,6 +49,6 @@ CREATE TABLE Users (
 );
 --rollback DROP TABLE Users;
 
---changeset ivan.verba:5 labels:0.0.3
+--changeset ivan.verba:6 labels:0.0.3
 CREATE INDEX Email ON Users (Email);
 --rollback DROP INDEX Email;
